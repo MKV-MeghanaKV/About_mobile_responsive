@@ -494,7 +494,9 @@ p{
     }
   }
   @media screen and (max-width:943px){
- 
+    body{
+      zoom:50%;
+    }
     .card1{
       margin-left:0px;
       margin-right: 20px;
