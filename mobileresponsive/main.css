@@ -7,9 +7,11 @@ html,body{
     width:100%;
 }
 
+
+
 body{
     font-family: sans-serif;
-    zoom:50%;
+    
 }
 
 header{
@@ -33,6 +35,7 @@ header{
     margin:0;
 }
 
+
 .content2{
   padding-left:30px ;
   padding-right: 30px;
@@ -46,6 +49,11 @@ header{
     padding-right: 350px;
     font-family: Rowdies;
     letter-spacing:1.5px;
+    font-size: 25px;
+}
+
+.middle p{
+   font-size: 30px;
 }
 
 .middle1{
@@ -53,6 +61,7 @@ header{
   padding-right: 350px;
   font-family: Rowdies;
   letter-spacing:1.5px;
+  font-size: 25px;
 }
 
 .middle2{
@@ -60,6 +69,7 @@ header{
   padding-right: 350px;
   font-family: Rowdies;
   letter-spacing:1.5px;
+  font-size: 25px;
 }
 
 .middle3{
@@ -67,6 +77,8 @@ header{
   padding-right: 350px;
   font-family: Rowdies;
   letter-spacing:1.5px;
+  font-size: 25px;
+  text-align: justify;
 
 }
 
@@ -77,7 +89,7 @@ header{
     margin-left: 120px;
     color:rgb(247, 245, 245);
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .menu{
@@ -125,7 +137,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     font-family: sans-serif;
     letter-spacing:2px;
     font-weight: bold;
@@ -200,17 +212,26 @@ section{
   
 }
 
+.faq{
+  font-size: 25px;
+}
+
 p{
     font-family: Roboto;
     letter-spacing: 1px;
     font-weight: medium;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: justify;
 }
 
 .methods{
     padding-left: 350px;
     padding-right: 350px;
     background-color: rgb(255, 244, 226);
+    font-size: 25px;
+}
+footer p{
+  text-align: center;
 }
 
 .articles{
@@ -520,8 +541,23 @@ p{
    .card1{
     width: 260px;
   }
-  }
 
+  }
+  @media screen and (max-width:625px){
+    body{
+      width:1300px;
+    }
+  }
+  @media screen and (max-width:600px){
+    body{
+      width:1300px;
+    }
+  }
+  @media screen and (max-width:528px){
+    body{
+      width:1000px;
+    }
+  }
   @media screen and (max-width:504px){
     header{
       width:1000px;
@@ -573,6 +609,9 @@ p{
     footer{
       width:1000px;
     }
+    body{
+      width:1000px;
+    }
   }
   @media screen and (max-width:821px){
     body{
@@ -582,5 +621,10 @@ p{
   @media screen and (max-width:913px){
     body{
       width:960px;
+    }
+  }
+  @media screen and (max-width:600px){
+    body{
+      zoom:1300px;
     }
   }
