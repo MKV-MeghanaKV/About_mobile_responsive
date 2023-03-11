@@ -364,6 +364,16 @@ footer p{
   .card:hover .card__wrapper:after {
     transform: scale(0.95) translateY(10px);
   }
+  .card1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .card1:hover .card__wrapper {
+    box-shadow: 0 10px 10px 10px rgba(109, 108, 108, 0.05);
+  }
+  .card1:hover .card__wrapper:after {
+    transform: scale(0.95) translateY(10px);
+  }
   
   /* Demo */
   body {
